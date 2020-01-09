@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "yarn install && yarn build && yarn next start"
   },
   "dependencies": {
     "isomorphic-unfetch": "3.0.0",
